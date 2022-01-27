@@ -1,0 +1,92 @@
+body{
+    background: hsl(185, 41%, 84%);
+    margin-top: 170px;
+}
+/*header*/
+
+header img{
+    position: relative;
+    top: -20px;
+}
+
+/*configurações gerais*/
+.small{
+    position: relative;
+    top: -15px;
+    color: red;
+}
+.smal{
+    color:red;
+}
+.none{
+    display: none;
+}
+
+/*conatiner principal*/
+
+.container{
+    border-radius: 9px;
+}
+ input[type=number]::-webkit-inner-spin-button,
+    input[type=number]::-webkit-outer-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+
+input{
+     background: url(images/icon-dollar.svg) no-repeat left;
+     background-position: 5px;
+}  
+.input{
+    background: url(images/icon-person.svg) no-repeat left;
+    background-position: 5px ;
+}  
+ /*container secundario*/
+
+.container2{
+    width: 480px;
+    height: 260px;
+    border-radius: 10px;
+    margin-left: 70px;
+    background: hsl(183, 100%, 15%);
+}
+.container2{
+    color: white;
+}
+.container2 p{
+    color: hsl(172, 67%, 45%);
+}
+aside div{
+    width: 40%;
+    border: 1px solid red;
+}
+/* confiuração button*/
+button span{
+    color: white;
+    
+}
+/*divs*/
+.size p{
+    font-size: 40px;
+}
+/*FOOTER*/
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+/*Media Queries*/
+
+/*Small devices (landscape phones, less than 768px)*/
+@media (max-width: 767.98px) { 
+    .container2{
+        margin-left: 2px;
+        height: 400px;
+    }
+    .size{
+       font-size:15px;
+    }
+
+ }
+
+
+
